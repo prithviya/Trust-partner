@@ -807,7 +807,7 @@ strong, span, small, label, i {
   content: "";
   position: absolute;
   transition: all 0.3s ease-in-out;
-  background-color: #ff4328;
+  background-color: var(--blue);
 }
 .icon_btn:hover {
   color: #ffffff;
@@ -3735,7 +3735,7 @@ button {
   line-height: 1;
   font-size: 15px;
   margin-bottom: 10px;
-  color: #ff4328;
+  color: var(--blue);
   font-family: "Pacifico", cursive;
 }
 .service_card .item_title {
@@ -3751,6 +3751,10 @@ button {
   line-height: 47px;
   position: absolute;
   transform: translateY(-50%);
+}
+.text-yellow
+{
+  color: var(--yellow) !important;
 }
 
 /* service card - end */
@@ -3833,10 +3837,10 @@ button {
   font-size: 14px;
   line-height: 49px;
   margin-left: 25px;
-  background-color: #ff4328;
+  background-color: var(--blue);
 }
 .portfolio_fullimage .icon_btn:before {
-  background: #fec931;
+  background: var(--yellow);
 }
 .portfolio_fullimage .icon_btn:hover {
   color: #222222;
@@ -8447,7 +8451,7 @@ button {
 }
 
 button:hover {
-  background: #c4e201;
+  background: #fff;
 }
 
 button > svg {

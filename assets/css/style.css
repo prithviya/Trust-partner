@@ -1030,8 +1030,8 @@ strong, span, small, label, i {
   line-height: 57px;
   text-align: center;
   position: relative;
-  color: var(--yellow);
-  background-color: var(--blue);
+  /* color: var(--yellow); */
+  background-color: var(--yellow);
 }
 
 /* back to top - end

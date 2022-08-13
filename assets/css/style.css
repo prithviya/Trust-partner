@@ -8574,10 +8574,10 @@ button:active {
   background: #fafafa;
 }
 .form_wrapper input[type="text"]:focus, .form_wrapper input[type="tel"]:focus, .form_wrapper input[type="email"]:focus, .form_wrapper input[type="password"]:focus {
-  -webkit-box-shadow: 0 0 2px 1px rgba(237, 56, 22, 0.637);
-  -moz-box-shadow: 0 0 2px 1px rgba(237, 56, 22, 0.637);
-  box-shadow: 0 0 2px 1px rgba(237, 56, 22, 0.637);
-  border: 1px solid #ed3816;
+  -webkit-box-shadow: 0 0 2px 1px rgba(15, 31, 92, 0.2);
+  -moz-box-shadow: 0 0 2px 1px rgba(15, 31, 92, 0.2);
+  box-shadow: 0 0 2px 1px rgba(15, 31, 92, 0.2);
+  border: 1px solid var(--blue);
   background: #fafafa;
 }
 .form_wrapper input[type="submit"] {

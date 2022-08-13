@@ -2860,7 +2860,7 @@ button {
   width: 135px;
   height: 135px;
   position: absolute;
-  background-color: #ff4328;
+  background-color: var(--blue);
 }
 .testimonial_carousel .owl-stage-outer {
   padding-top: 10px;

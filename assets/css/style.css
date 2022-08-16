@@ -1714,10 +1714,10 @@ button {
   background-color: #ffffff;
 }
 .secondary_header .main_menu > ul > li > a {
-  color: #757575;
+  color: var(--blue);
 }
 .secondary_header .main_menu > ul > li:hover > a, .secondary_header .main_menu > ul > li.active > a {
-  color: #ff4328;
+  color: var(--yellow);
 }
 
 /* secondary header - end
@@ -1787,7 +1787,7 @@ button {
   position: absolute;
 }
 .sidebar_mobile_menu .close_btn:hover {
-  color: #ff4328;
+  color: var(--yellow);
 }
 .sidebar_mobile_menu .mobile_menu_list {
   width: 100%;
@@ -1806,7 +1806,7 @@ button {
   font-size: 16px;
   padding: 17px 35px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.4);
+  color:var(--yellow);
 }
 .sidebar_mobile_menu .mobile_menu_list > ul > li:hover > a, .sidebar_mobile_menu .mobile_menu_list > ul > li.active > a {
   color: #ffffff;
@@ -4996,7 +4996,7 @@ blockquote .blockquote_admin i {
   font-weight: 500;
   content: "";
   position: absolute;
-  color: #ff4328;
+  color: var(--blue);
   transition: all 0.3s ease-in-out;
   font-family: "Font Awesome 5 Pro";
 }
@@ -6571,16 +6571,16 @@ blockquote .blockquote_admin i {
   }
 
   .primary_header .mobilemenu_btns_group button {
-    color: #757575;
+    color: var(--blue);
   }
   .primary_header .mobilemenu_btns_group button:hover, .primary_header .mobilemenu_btns_group button.active {
-    color: #ff4328;
-    background: transparent;
+    color: var(--blue);
+    background: var(--yellow);
   }
 
   .primary_header .search_btn:hover,
 .primary_header .search_btn.active {
-    color: #ff4328;
+    color: var(--blue);
     background-color: transparent;
   }
 
@@ -6605,10 +6605,10 @@ blockquote .blockquote_admin i {
   }
 
   .secondary_header .mobilemenu_btns_group button {
-    color: #222222;
+    color: var(--blue);
   }
   .secondary_header .mobilemenu_btns_group button:hover {
-    color: #ff4328;
+    color:var(--blue);
   }
 
   .secondary_header + main {

@@ -28,7 +28,7 @@ body {
 :root
 {
   --yellow : #fec931;
-  --blue : #0f1f5c;
+  --blue : #061161;
 }
 ::selection {
   color: #ffffff;
@@ -5525,7 +5525,7 @@ blockquote .blockquote_admin i {
   content: "";
   opacity: 0.85;
   position: absolute;
-  background-color: #0b0f4f;
+  background: linear-gradient(to right top,  #061161 90%, #4e4376 100%);
 }
 .home_three_slider .owl-dots {
   left: 50%;

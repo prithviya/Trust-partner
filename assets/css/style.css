@@ -656,7 +656,7 @@ strong, span, small, label, i {
 /* padding - margin setting - start 
 ================================================== */
 .sec_ptb_130 {
-  padding: 130px 0px;
+  padding: 70px 0px;
 }
 
 .mt__30 {
@@ -1126,34 +1126,9 @@ strong, span, small, label, i {
 ================================================== */
 /* default color - start
 ================================================== */
-.bg_default_orange {
-  background-color: #ff4328;
-}
-
 .bg_default_blue {
-  background-color: #1a1e5d;
+  background-color: var(--blue);
 }
-
-.bg_default_lightblue {
-  background-color: #209ffa;
-}
-
-.bg_default_yellow {
-  background-color: #fec931;
-}
-
-.bg_default_purple {
-  background-color: #5f43c5;
-}
-
-.bg_default_pink {
-  background-color: #e6498f;
-}
-
-.bg_default_past {
-  background-color: #20ad96;
-}
-
 /* default color - end
 ================================================== */
 /* custom default classes - start
